@@ -25,7 +25,7 @@ class App extends React.Component {
     return (
       <div class="container"> 
         <ButtonGroup className='lang-btn' size="lg">
-            <Button variant="light" onClick={() => this.changelang('th')}>TH</Button>
+            <Button variant="light" onClick={() => this.changelang('th')}>ไทย</Button>
             <Button variant="dark" onClick={() => this.changelang('en')}>EN</Button>
         </ButtonGroup>
         <Link to="/Pages/hospital-info"> <Button className='big-btn' variant='success'>{translator.btn_1}</Button> </Link> 
