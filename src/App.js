@@ -38,29 +38,3 @@ class App extends React.Component {
 }
 export default App;
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
- {/* <Button className='big-btn' variant='success'>{translator.btn_1}</Button>
-        <Button className='big-btn' variant='info'>{translator.btn_2}</Button>
-        <Button className='big-btn' variant='danger'>{translator.btn_3}</Button>
-        <Button className='big-btn' variant='warning'>{translator.btn_4}</Button> */}
-        {/* <Route path="/Pages/hospital-info" component={Page1} /> */}

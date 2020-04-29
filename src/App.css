@@ -1,9 +1,22 @@
 body {
-  background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+  background: url('https://image.freepik.com/free-vector/white-technology-background_23-2148413500.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  /* 
+  hospital blur background: https://image.freepik.com/free-photo/blur-hospital_1203-7972.jpg
+  hopital art: https://image.freepik.com/free-vector/hospital-facade-street-view-flat-style-ambulance-car-entrance_1268-11787.jpg
+  hospital art 2 : https://image.freepik.com/free-vector/city-hospital-building-ambulance-medical-care-helicopter_101087-158.jpg
+  network: https://image.freepik.com/free-vector/abstract-technology-particle-background_52683-25766.jpg
+  abstract: https://image.freepik.com/free-vector/hexagonal-infographic-white-background-template_1017-19276.jpg
+  blue geometric: https://image.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg
+  hi-tech: https://image.freepik.com/free-vector/white-technology-background_23-2148413500.jpg
+  
+  
+  
+  
+  */
 }
 
 .App {
