@@ -5,6 +5,8 @@ import {Button, ButtonGroup} from 'react-bootstrap';
 import {translator} from './Components/Translator';
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import Page1 from "./Pages/page1";
+import TH_img from "./img_TH";
+import EN_img from "./img_EN";
 
 class App extends React.Component {
   constructor(props) {
@@ -25,13 +27,15 @@ class App extends React.Component {
     return (
       <div class="container"> 
         <ButtonGroup className='lang-btn' size="lg">
-            <Button variant="light" onClick={() => this.changelang('th')}>TH</Button>
-            <Button variant="dark" onClick={() => this.changelang('en')}>EN</Button>
+            <Button variant="light" onClick={() => this.changelang('th')}><TH_img /></Button>
+            <Button variant="dark" onClick={() => this.changelang('en')}><EN_img /></Button>
         </ButtonGroup>
         <Link to="/Pages/hospital-info"> <Button className='big-btn' variant='success'>{translator.btn_1}</Button> </Link> 
         <Link to="/Pages/opd-map"> <Button className='big-btn' variant='info'>{translator.btn_2}</Button> </Link>
         <Link to="/Pages/news"> <Button className='big-btn' variant='danger'>{translator.btn_3}</Button> </Link>
         <Link to="/Pages/frequency-asking"> <Button className='big-btn' variant='warning'>{translator.btn_4}</Button> </Link>
+        {/* <img src="./thailand.png" alt="TH" height="100" weight="100" />  */}
+        
       </div>
       )
   }
