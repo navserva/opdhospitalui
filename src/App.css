@@ -1,0 +1,71 @@
+body {
+  background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.big-btn {
+  width: 50rem;
+  height: 9.5rem;
+  /* width: 9.5rem;
+  height: 25rem; */
+  font-size: 40px !important;
+  margin: 0.65rem;
+  margin-left: 8rem;
+  text-align: center;
+  padding: 10px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.lang-btn {
+  text-align: center;
+  margin-top: 0.10rem;
+  float: right;
+  /* padding: 0.5rem; */
+  
+  
+}
