@@ -29,9 +29,9 @@ class App extends React.Component {
             <Button variant="dark" onClick={() => this.changelang('en')}>EN</Button>
         </ButtonGroup>
         <Link to="/Pages/hospital-info"> <Button className='big-btn' variant='success'>{translator.btn_1}</Button> </Link> 
-        <Link to="/Pages/opd-map"> <Button className='big-btn' variant='info'>{translator.btn_2}</Button> </Link>
-        <Link to="/Pages/news"> <Button className='big-btn' variant='danger'>{translator.btn_3}</Button> </Link>
-        <Link to="/Pages/frequency-asking"> <Button className='big-btn' variant='warning'>{translator.btn_4}</Button> </Link>
+        <Link to="/Pages/opd-map"> <Button className='big-btn' variant='success'>{translator.btn_2}</Button> </Link>
+        <Link to="/Pages/news"> <Button className='big-btn' variant='success'>{translator.btn_3}</Button> </Link>
+        <Link to="/Pages/frequency-asking"> <Button className='big-btn' variant='success'>{translator.btn_4}</Button> </Link>
       </div>
       )
   }
