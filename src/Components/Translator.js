@@ -6,7 +6,8 @@ export const translator = new LocalizedStrings({
         btn_1:"ข้อมูลเกี่ยวกับโรงพยาบาล",
         btn_2:"แผนผังแผนกผู้ป่วยนอก",
         btn_3:"ข่าวสาร",
-        btn_4: "คำถามที่พบบ่อย"
+        btn_4: "คำถามที่พบบ่อย", 
+        btn_1_sound: "Sound/FAQs.mp3"
      },
   en:{
    greeting:"Welcome to Maha Vajiralongkorn Thanyaburi Hospital",
